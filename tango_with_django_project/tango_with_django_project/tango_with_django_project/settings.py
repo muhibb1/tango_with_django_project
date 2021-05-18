@@ -31,7 +31,9 @@ SECRET_KEY = 'rjx7ry%44nn_xt=!stj@g!z(8-5%5rz*5ld!@r%g_hfd@^@%@m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['muhibb1.pythonanywhere.com',
+                 '127.0.0.1',
+                 'localhost']
 
 LOGIN_URL = 'rango:login'
 
